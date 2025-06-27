@@ -575,3 +575,105 @@ button{
     text-align: center;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 480px) {
+    .barra{
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cuerpo_inicial{
+        height: 100rem;
+    }
+
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .imagencuriosidades, .imagenacerq{
+        width: 400px;
+        height: 300px;
+    }
+
+    .titulo_nosotros{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .txt_nosotros1, .txt_nosotros2{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .banner_mn, .banner_mn2{
+        display: none;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tit2{
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #000000;
+    }
+
+    .tit{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    p{
+        padding-bottom: 1rem;
+    }
+
+    .imagen__1200{
+        width: 250px;
+    }
+
+    .estilo_iconos_logistica, .estilo_iconos_logistica2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .incoterms2{
+        display: flex;
+        flex-direction: column;
+    }
+
+     .imagen_incoterms{
+        display: none;
+    }
+
+    .contenedores, .contenido_card_contenedores{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .estilo_pie{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .estilo_formulario{
+        width: 100vw;
+    }
+
+    .estilo_pie_info{
+        margin-left: .2rem;
+    }
+}
